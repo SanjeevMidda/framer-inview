@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 100px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContent {
+  border: 1px solid black;
+  display: flex;
+  gap: 40px;
+  height: 400px;
+}
